@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Methodology | Prioritization Analysis for Argentina - Visualizer User Guide</title>
+  <meta name="description" content="5 Methodology | Prioritization Analysis for Argentina - Visualizer User Guide" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Methodology | Prioritization Analysis for Argentina - Visualizer User Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Methodology | Prioritization Analysis for Argentina - Visualizer User Guide" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="layers.html"/>
+<link rel="next" href="prioritization-maps.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://fundacionbariloche.org.ar/"><img src="images/fb-logo.png" height="200"></a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Inicio</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="quick-start.html"><a href="quick-start.html"><i class="fa fa-check"></i><b>2</b> Quick start</a></li>
+<li class="chapter" data-level="3" data-path="execution-and-configuration.html"><a href="execution-and-configuration.html"><i class="fa fa-check"></i><b>3</b> Execution and Configuration</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="execution-and-configuration.html"><a href="execution-and-configuration.html#windows"><i class="fa fa-check"></i><b>3.1</b> Execution on Windows</a></li>
+<li class="chapter" data-level="3.2" data-path="execution-and-configuration.html"><a href="execution-and-configuration.html#config"><i class="fa fa-check"></i><b>3.2</b> Configuration</a></li>
+<li class="chapter" data-level="3.3" data-path="execution-and-configuration.html"><a href="execution-and-configuration.html#linux"><i class="fa fa-check"></i><b>3.3</b> Installation and Execution for Linux Systems</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="layers.html"><a href="layers.html"><i class="fa fa-check"></i><b>4</b> Description of Base Information</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="layers.html"><a href="layers.html#pu"><i class="fa fa-check"></i><b>4.1</b> Study Area and Planning Units</a></li>
+<li class="chapter" data-level="4.2" data-path="layers.html"><a href="layers.html#pa"><i class="fa fa-check"></i><b>4.2</b> Protected Areas</a></li>
+<li class="chapter" data-level="4.3" data-path="layers.html"><a href="layers.html#urb"><i class="fa fa-check"></i><b>4.3</b> Urban Areas</a></li>
+<li class="chapter" data-level="4.4" data-path="layers.html"><a href="layers.html#cbm"><i class="fa fa-check"></i><b>4.4</b> Biomass Carbon Map</a></li>
+<li class="chapter" data-level="4.5" data-path="layers.html"><a href="layers.html#h2o"><i class="fa fa-check"></i><b>4.5</b> Clean Water Provision</a></li>
+<li class="chapter" data-level="4.6" data-path="layers.html"><a href="layers.html#bio"><i class="fa fa-check"></i><b>4.6</b> Biodiversity Data</a></li>
+<li class="chapter" data-level="4.7" data-path="layers.html"><a href="layers.html#eco"><i class="fa fa-check"></i><b>4.7</b> Ecoregions</a></li>
+<li class="chapter" data-level="4.8" data-path="layers.html"><a href="layers.html#cov"><i class="fa fa-check"></i><b>4.8</b> Land Use and Land Cover</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>5</b> Methodology</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="methods.html"><a href="methods.html#prio"><i class="fa fa-check"></i><b>5.1</b> Prioritization Analysis</a></li>
+<li class="chapter" data-level="5.2" data-path="methods.html"><a href="methods.html#targets"><i class="fa fa-check"></i><b>5.2</b> Definition of Conservation Targets</a></li>
+<li class="chapter" data-level="5.3" data-path="methods.html"><a href="methods.html#optim"><i class="fa fa-check"></i><b>5.3</b> Formulation of the Optimization Problem and Priority Levels</a></li>
+<li class="chapter" data-level="5.4" data-path="methods.html"><a href="methods.html#variants"><i class="fa fa-check"></i><b>5.4</b> Prioritization Analysis Variants</a></li>
+<li class="chapter" data-level="5.5" data-path="methods.html"><a href="methods.html#prod"><i class="fa fa-check"></i><b>5.5</b> Interaction with Productive Areas</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="prioritization-maps.html"><a href="prioritization-maps.html"><i class="fa fa-check"></i><b>6</b> Prioritization Maps</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="prioritization-maps.html"><a href="prioritization-maps.html#biomass-carbon"><i class="fa fa-check"></i><b>6.1</b> Biomass Carbon</a></li>
+<li class="chapter" data-level="6.2" data-path="prioritization-maps.html"><a href="prioritization-maps.html#water-provision"><i class="fa fa-check"></i><b>6.2</b> Water Provision</a></li>
+<li class="chapter" data-level="6.3" data-path="prioritization-maps.html"><a href="prioritization-maps.html#biodiversity"><i class="fa fa-check"></i><b>6.3</b> Biodiversity</a></li>
+<li class="chapter" data-level="6.4" data-path="prioritization-maps.html"><a href="prioritization-maps.html#mammals"><i class="fa fa-check"></i><b>6.4</b> Mammals</a></li>
+<li class="chapter" data-level="6.5" data-path="prioritization-maps.html"><a href="prioritization-maps.html#birds"><i class="fa fa-check"></i><b>6.5</b> Birds</a></li>
+<li class="chapter" data-level="6.6" data-path="prioritization-maps.html"><a href="prioritization-maps.html#reptiles-and-amphibians"><i class="fa fa-check"></i><b>6.6</b> Reptiles and Amphibians</a></li>
+<li class="chapter" data-level="6.7" data-path="prioritization-maps.html"><a href="prioritization-maps.html#carbon-and-biodiversity"><i class="fa fa-check"></i><b>6.7</b> Carbon and Biodiversity</a></li>
+<li class="chapter" data-level="6.8" data-path="prioritization-maps.html"><a href="prioritization-maps.html#carbon-and-water"><i class="fa fa-check"></i><b>6.8</b> Carbon and Water</a></li>
+<li class="chapter" data-level="6.9" data-path="prioritization-maps.html"><a href="prioritization-maps.html#joint-targets"><i class="fa fa-check"></i><b>6.9</b> Joint Targets</a></li>
+<li class="chapter" data-level="6.10" data-path="prioritization-maps.html"><a href="prioritization-maps.html#interaction-with-productive-areas"><i class="fa fa-check"></i><b>6.10</b> Interaction with Productive Areas</a>
+<ul>
+<li class="chapter" data-level="6.10.1" data-path="prioritization-maps.html"><a href="prioritization-maps.html#overlap-map"><i class="fa fa-check"></i><b>6.10.1</b> Overlap Map</a></li>
+<li class="chapter" data-level="6.10.2" data-path="prioritization-maps.html"><a href="prioritization-maps.html#difference-map-with-original-solution"><i class="fa fa-check"></i><b>6.10.2</b> Difference Map with Original Solution</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="menu.html"><a href="menu.html"><i class="fa fa-check"></i><b>7</b> Display Controls</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="menu.html"><a href="menu.html#left-panel"><i class="fa fa-check"></i><b>7.1</b> Left Panel</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="menu.html"><a href="menu.html#prioritization-map-selector"><i class="fa fa-check"></i><b>7.1.1</b> Prioritization Map Selector</a></li>
+<li class="chapter" data-level="7.1.2" data-path="menu.html"><a href="menu.html#ref-lay"><i class="fa fa-check"></i><b>7.1.2</b> Reference Layers</a></li>
+<li class="chapter" data-level="7.1.3" data-path="menu.html"><a href="menu.html#land-cover-layers"><i class="fa fa-check"></i><b>7.1.3</b> Land Cover Layers</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="menu.html"><a href="menu.html#right-panel"><i class="fa fa-check"></i><b>7.2</b> Right Panel</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="menu.html"><a href="menu.html#analysis-prio"><i class="fa fa-check"></i><b>7.2.1</b> Prioritization Data Analysis</a></li>
+<li class="chapter" data-level="7.2.2" data-path="menu.html"><a href="menu.html#analysis-prod"><i class="fa fa-check"></i><b>7.2.2</b> Analysis of Interaction with Productive Areas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>8</b> Visualization Tools</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="tools.html"><a href="tools.html#zoom"><i class="fa fa-check"></i><b>8.1</b> Zoom Buttons</a></li>
+<li class="chapter" data-level="8.2" data-path="tools.html"><a href="tools.html#resetview"><i class="fa fa-check"></i><b>8.2</b> Reset View</a></li>
+<li class="chapter" data-level="8.3" data-path="tools.html"><a href="tools.html#tiles"><i class="fa fa-check"></i><b>8.3</b> Background Layers</a></li>
+<li class="chapter" data-level="8.4" data-path="tools.html"><a href="tools.html#draw"><i class="fa fa-check"></i><b>8.4</b> Drawing Tools</a></li>
+<li class="chapter" data-level="8.5" data-path="tools.html"><a href="tools.html#measure"><i class="fa fa-check"></i><b>8.5</b> Measurement Tool</a></li>
+<li class="chapter" data-level="8.6" data-path="tools.html"><a href="tools.html#print"><i class="fa fa-check"></i><b>8.6</b> Print</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="lista.html"><a href="lista.html"><i class="fa fa-check"></i><b>9</b> Species List</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Prioritization Analysis for Argentina - Visualizer User Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="methods" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> Methodology<a href="methods.html#methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="prio" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Prioritization Analysis<a href="methods.html#prio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The determination of priority areas for biodiversity, carbon and water conservation (or a combination of these objectives) is carried out using systematic conservation planning (SCP) techniques <span class="citation">(<a href="references.html#ref-Kukkala2013">Kukkala and Moilanen 2013</a>)</span>. The study area (continental Argentina) is divided into Planning Units (PUs) with a resolution of 2 km (see Section <a href="layers.html#pu">4.1</a> for more details). In each PU, the content of each conservation “feature” (habitat area for each species, tons of biomass carbon, and average value of the water provision index, etc.) is calculated. This procedure includes PUs that are part of the current protected area system, so the contribution of these areas to meeting conservation targets is considered in all analysis variants.</p>
+<p>The prioritization analysis requires a clear and appropriate definition of conservation targets for each feature (Section <a href="methods.html#targets">5.2</a>), from which it is possible to evaluate the level of target fulfillment for any set of PUs. The optimization problem consists of finding the combination of PUs that, when added to the current protected areas, maximize the fulfillment of the selected feature’s (or combination of features’) targets (Section <a href="methods.html#optim">5.3</a>). Through a sequence of optimizations using a 5% area constraint, priority ranges are constructed for the different analysis variants (Section <a href="methods.html#variants">5.4</a>). Finally, the optimization problem formulation is modified to include an additional cost for selecting PUs containing agricultural or livestock production, aiming to achieve a good balance between land management for conservation and food production (Section <a href="methods.html#prod">5.5</a>).</p>
+</div>
+<div id="targets" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Definition of Conservation Targets<a href="methods.html#targets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Conservation targets for biodiversity are established in terms of the minimum amount of habitat required for each species to reach the “Least Concern” (LC) conservation status, according to IUCN criteria <span class="citation">(<a href="references.html#ref-Mogg2019">Mogg 2019</a>)</span>. Following the criteria of the most recent SCP work <span class="citation">(<a href="references.html#ref-Jung2021">Jung 2021</a>)</span>, the conservation target based on the Area of Habitat (AOH) for species s is defined as,</p>
+<p><span class="math display">\[Ts = min(max(2200, 0.8*AOH_{s(VU)} ),834000),\]</span></p>
+<p>for all species with a “Vulnerable” (VU) conservation status following IUCN Red List Criterion A, which states that the population should not decrease by more than 30% in 10 years, which can be translated into an approximate area-based criterion of 80% of the range <span class="citation">(<a href="references.html#ref-Mogg2019">Mogg 2019</a>)</span>. For species with “Endangered” (EN) or “Critically Endangered” (CR) status, this fraction is increased from 80% to 100%, i.e.,</p>
+<p><span class="math display">\[Ts = min(max(2200, AOH_{s(EN,CR)} ),834000).\]</span></p>
+<p>All values are expressed in km². The AOH value results from the species’ distribution range filtered by suitable habitats and divided by ecoregion to preserve intraspecific variation (see Section <a href="layers.html#bio">4.6</a>). The AOH values for each species are detailed in the table in Section <a href="lista.html#lista">9</a>. The Ts values are capped at a maximum of 834,000 km², representing 30% of the continental territory, which is the maximum expansion of protected areas considered in this study. On the other hand, the lower limit for all AOHs is set at 2,000 km² plus a 10% buffer, following IUCN Red List Criterion B2 <span class="citation">(<a href="references.html#ref-IUCN2012">IUCN 2012</a>)</span>.</p>
+<p>The targets for biomass carbon and water provision were set at 100% of the total amount of each attribute integrated across the entire study area <span class="citation">(<a href="references.html#ref-Jung2021">Jung 2021</a>)</span>.</p>
+</div>
+<div id="optim" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Formulation of the Optimization Problem and Priority Levels<a href="methods.html#optim" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The assignment of priority levels is carried out through a sequence of optimization problems <span class="citation">(<a href="references.html#ref-Jung2021">Jung 2021</a>)</span>. For each conservation feature j (each species, carbon, water, etc.), the goal is to maximize the fulfillment of its conservation target <span class="math inline">\(T_j\)</span>, for which the relative target fulfillment for each feature j is defined as</p>
+<p><span class="math display">\[z_j = \min \big( 1 , \sum_i^{N_{PU}} R_{ij} x_i / T_j \big)\]</span></p>
+<p>where <span class="math inline">\(R_{ij}\)</span> represents the amount of conservation feature <span class="math inline">\(j\)</span> contained in PU <span class="math inline">\(i\)</span> (suitable habitat area, tons of carbon, m³ of water provision, etc.). <span class="math inline">\(x_i\)</span> is defined as a binary decision variable indicating whether the i-th PU is managed for conservation (value 1) or not (value 0). The value of <span class="math inline">\(z_j\)</span> is limited to avoid overrepresentation of a conservation feature.</p>
+<p>To define the objective function to be maximized, weights <span class="math inline">\(w_j\)</span> are assigned to each conservation feature <span class="math inline">\(j\)</span>, which multiply the target fulfillment to regulate the relative importance of each aspect in the different analysis variants.</p>
+<p>The optimization problem consists of determining the set of PUs that maximize,</p>
+<p><span class="math display">\[F_{obj}(x_i) = \sum_j^{N_f} w_j z_j(x_i),\]</span></p>
+<p>Subject to the following constraints,</p>
+<ul>
+<li><span class="math inline">\(\sum_i a_i x_i &lt; 0.05 A\)</span>,</li>
+<li><span class="math inline">\(x_i = 1\)</span> for all PUs within current protected areas and those selected in the previous prioritization level (from the second execution onward),</li>
+<li><span class="math inline">\(x_i = 0\)</span> for all PUs in urban areas,</li>
+</ul>
+<p>where <span class="math inline">\(N_f\)</span> is the number of conservation features considered, <span class="math inline">\(a_i\)</span> is the area of each PU, and <span class="math inline">\(A\)</span> is the total area of the study area (both in km²). Current protected areas are included in all considered solutions (“lock-in” constraint).</p>
+<p>The sequential application of this optimization problem allows identifying the distribution of areas that compose each priority level. For convenience in visualization and presentation of results, four priority levels were set, each covering 5% of the territory. In the first optimization execution, the 5% of the area with the highest priority for the selected conservation analysis variant (the analysis variants are described in Section <a href="methods.html#variants">5.4</a>) is found, which, together with the 10% of protected areas (actually 10.2%, but rounded for simplicity), covers 15% of the territory. The next level is obtained by solving the optimization problem for an additional 5%, imposing the constraint that the PUs of protected areas and those of the first priority level are part of the solution. The new 5% found represents the second priority level and, together with the protected areas and the previous level, completes 20% of the territory. The same process is repeated to find the third and fourth priority levels, totaling an expansion from 10% to 30% that maximizes the fulfillment of targets for the selected prioritization variant. This general procedure is the same for all prioritization analysis variants detailed in the following section.</p>
+</div>
+<div id="variants" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Prioritization Analysis Variants<a href="methods.html#variants" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The different analysis variants are obtained by imposing different distributions of relative weights (<span class="math inline">\(w_j\)</span>) among the conservation features. <a href="#tab:4.1">Table 5.1</a> shows the prioritization analysis variants available in the viewer with their respective weight distributions.</p>
+<p><a id=tab:4.1></a></p>
+<p><span class="math display">\[
+\begin{matrix}
+   \begin{array}{c|l|l}
+   \text{Case} &amp; \text{Analysis Variants} &amp; \text{Weight Distribution} \\\hline
+   1 &amp; \text{Biomass Carbon} &amp; w_C = 1 \text{, the rest } 0 \\
+   2 &amp; \text{Water Provision} &amp; w_{Wat} = 1 \text{, the rest } 0 \\
+   3 &amp; \text{Biodiversity} &amp; w_s = SCV_s, w_C = w_{Wat} = 0 \\
+   4 &amp; \text{Mammals} &amp; w_s = SCV_s \text{ for mammals, the rest } 0 \\
+   5 &amp; \text{Birds} &amp; w_s = SCV_s \text{ for birds, the rest } 0 \\
+   6 &amp; \text{Reptiles and Amphibians} &amp; w_s = SCV_s \text{ for reptiles and amphibians, the rest } 0 \\
+   7 &amp; \text{Carbon and Biodiversity} &amp; w_C = 1, w_s = SCV_s/\sum_s SCV_s, w_{Wat} = 0 \\
+   8 &amp; \text{Carbon and Water} &amp; w_C = w_{Wat} = 1 \text{ and } w_s = 0 \\
+   9 &amp; \text{Joint Targets} &amp; w_C = 1, w_{Wat} = 1 , w_s = SCV_s/\sum_s SCV_s
+   \end{array}
+\end{matrix}
+\]</span>
+<a href="#tab:4.1">Table 5.1</a> : Weight distribution in the optimization for all considered analysis variants</p>
+<p>The first two analysis variants in the viewer are single-objective prioritizations (carbon and water, respectively). In these cases, only one component of the weight distribution vector will be non-zero, <span class="math inline">\(w_C\)</span> for carbon and <span class="math inline">\(w_{Wat}\)</span> for water, and the optimization result will be the areas that maximize the conservation of one of these two objectives. If the goal is to maximize the conservation of carbon and water sources simultaneously, a weight of 1 is assigned to both carbon (<span class="math inline">\(w_C\)</span>) and water (<span class="math inline">\(w_{Wat}\)</span>), and zero to the rest (variant 8 in <a href="#tab:4.1">Table 5.1</a>).</p>
+<p>In the case of biodiversity, the weight for each species is the Species Conservation Value (SCV), which takes into account conservation status, taxonomic uniqueness, and chorotype <span class="citation">(<a href="references.html#ref-Martin2021">Martin 2021</a>)</span>. The values assigned to each species are detailed in the table in Section <a href="lista.html#lista">9</a>. When analyzing priority areas for a specific class (mammals, birds, or herpetofauna), only the SCVs for the species in that class are assigned weights, while the rest are set to zero.</p>
+<p>When combining biodiversity conservation targets with others, such as carbon, the weight distribution for species must be relativized to the total value (sum of all SCVs), so that the sum of weights assigned to all species equals 1. In this way, biodiversity has the same weight as the other conservation features <span class="citation">(<a href="references.html#ref-Jung2021">Jung 2021</a>)</span>. This applies when the conservation objective is multiple and includes biodiversity, cases 7 and 9 in <a href="#tab:4.1">Table 5.1</a>.</p>
+</div>
+<div id="prod" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Interaction with Productive Areas<a href="methods.html#prod" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The maps that maximize the fulfillment of conservation targets involve varying degrees of overlap with productive lands (crops, livestock, forest plantations, etc.). If the overlap is too large, the conservation solution may become too costly to be effectively implemented. This section describes the model adopted to find alternative solutions that maintain a high level of conservation target fulfillment but have a progressively lower degree of overlap with productive lands, and are therefore easier to implement.</p>
+<p>For this analysis, only the interaction of productive areas with the resulting distribution from the joint target prioritization (biodiversity, carbon, and water, case 9 in <a href="#tab:4.1">Table 5.1</a>) is considered, including current protected areas and the four priority levels (30% of the territory in total).</p>
+<p>To find alternative solutions with high conservation values but less interaction with productive areas, the objective function in the optimization problem is modified as follows,</p>
+<p><span class="math display">\[F_{obj}(x_i) = \sum_j^{N_f} w_j z_j(x_i) - C (\lambda - 1) \sum_i^{N_{PU}} f_{prod,i} x_i,\]</span></p>
+<p>where <span class="math inline">\(f_{prod,i}\)</span> represents the fraction of the area of the i-th PU that has some type of productive cover (crops, livestock, forest plantations, agricultural mosaic), <span class="math inline">\(\lambda\)</span> is a free parameter ranging from 1 to 5 and interpreted as the relative cost between productive and non-productive land. This value can be controlled with a slider in the viewer. It is an arbitrary and constant value for the entire territory, with the sole purpose of finding new conservation solutions with high levels of target fulfillment and less interaction with productive lands. Note that when <span class="math inline">\(\lambda=1\)</span>, productive and non-productive land become indistinguishable for this objective function, and the previous solution is recovered exactly. Finally, the calibration constant <span class="math inline">\(C\)</span> is used to balance the relative weight between the two terms of the objective function. For this analysis, it was set at <span class="math inline">\(10^{-3}\)</span>.</p>
+<p>The second summation in the new objective function represents the overlap of the priority area network with productive areas. Therefore, it is clear that as <span class="math inline">\(\lambda\)</span> increases, the priority area network found has a lower degree of interaction with productive areas. In addition to the aggregate values of overlap and target fulfillment (shown in a graph), the spatial distribution of overlap with productive areas and the difference in the new solution (with <span class="math inline">\(\lambda&gt;1\)</span>) compared to the original solution (<span class="math inline">\(\lambda=1\)</span>) can be viewed in the viewer.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="layers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="prioritization-maps.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "serif",
+    "size": 2
+  },
+  "edit": null,
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section",
+    "scroll_highlight": true
+  },
+  "toolbar": {
+    "position": "fixed"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
